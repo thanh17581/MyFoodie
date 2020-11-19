@@ -20,12 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         var style: ToastStyle {
             var style = ToastStyle()
-            style.messageColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
+            style.messageColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             style.titleColor = .black
             style.backgroundColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 0.3016340229)
             style.messageAlignment = .center
             style.titleAlignment = .center
-            style.horizontalPadding = 50
+            style.horizontalPadding = 10
             return style
         }
         

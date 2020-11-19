@@ -18,5 +18,4 @@ class BaseTableViewCell: UITableViewCell {
     func configure<T>(_ item: T?){
         guard let _ = item else { return }
     }
-
 }
